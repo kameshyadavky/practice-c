@@ -34,5 +34,13 @@ It will be my C guide for interview and continuous progress tab. I will be codin
 
 ### General know-to of C
 
+1. `#ifndef` preprocessor: ifndef is used to check if a unique variable K_ARRAY_H is previously defined or not. If it is not defined following code is executed. Otherwise blank file is provided to the module importing it.
+   - This type of check prevents double declaration of emacs, variables etc.
+   - These are called include guards.
+
+2. Mistakes for a header file: I am not defining functions in header file.(May be wrong so take care)Reason for this decision is that these function do require some extra headers and also I am somewhat not sure. 
+   - Not applying include guards
+   - Header file should act as a public interface. So less information.
+   - structure definition and common variables should be here.
 
 ### Data Structures
