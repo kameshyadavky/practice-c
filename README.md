@@ -10,15 +10,15 @@ It will be my C guide for interview and continuous progress tab. I will be codin
   - pointers hold memory address not value
   - & used to get address of a variable
   - *variable_name used for getting value
-```
-int a = 5;
-int * p = null;
-//it is required to initialize Pointers
+  ```
+  int a = 5;
+  int * p = null;
+  //it is required to initialize Pointers
 
-p = &a;
-*p += 1;
-printf('%d',*p); //as *p gives value and p address
-```
+  p = &a;
+  *p += 1;
+  printf('%d',*p); //as *p gives value and p address
+  ```
 
 - structures
   - a structure can hold group of data with same variable name
