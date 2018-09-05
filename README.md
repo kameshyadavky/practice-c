@@ -44,3 +44,12 @@ It will be my C guide for interview and continuous progress tab. I will be codin
    - structure definition and common variables should be here.
 
 ### Data Structures
+
+Implementation thoughts...
+
+1. Array: Array is contiguous memory block containing homogeneous element indexed with continuous integer starting from 0.
+
+   - First define a structure which can hold crucial information like start of the array, size currently filled and capacity.
+   - make a function which return this structures pointer
+   - this function, KyNewArray() allocates memory dynamically to both struct and data i.e. starting address of Array
+   - push is performed by calculating address to enter value by: *(arr->data+arr->size) = value    
